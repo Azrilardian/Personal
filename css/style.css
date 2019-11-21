@@ -649,6 +649,10 @@ button.tombol:hover {
 
 /* BLOG CONTENT */
 
+.blog-content-left {
+  margin-bottom: 35px;
+}
+
 .content-left {
   padding-top: 30px;
 }
@@ -695,10 +699,6 @@ button.tombol:hover {
   background-color: #8490ff;
   color: white;
   transition: 0.3s;
-}
-
-.content-right {
-  padding: 0 15px;
 }
 
 .content-right-wrap {
@@ -820,7 +820,8 @@ button.tombol:hover {
 }
 
 
-/* TAG CLOUDS */
+/* * TAG CLOUDS */
+
 .tag-clouds-category {
   margin: 25px 0 0;
 }

@@ -819,18 +819,43 @@ button.tombol:hover {
   margin: 30px 0;
 }
 
+.newsletter .subscribe {
+  border: 1px solid rgb(219, 219, 219);
+}
 
-/* * TAG CLOUDS */
+.newsletter .subscribe i {
+  padding-left: 20px;
+  color: rgba(128, 128, 128, 0.527);
+}
+
+.newsletter .subscribe input {
+  border: none;
+  background-color: transparent;
+  color: #ccc
+}
+
+.newsletter .subscribe a {
+  background-color: #8490ff;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* TAG CLOUDS */
 
 .tag-clouds-category {
   margin: 25px 0 0;
 }
 
-.tag-clouds-category p {
+.tag-clouds-category a {
   padding: 5px 10px;
   margin: 5px 3px;
   background-color: white;
   border: 1px solid rgb(228, 228, 228);
+  color: rgb(31, 31, 31);
+  font-size: 12px;
 }
 
 /* PAGINATION */

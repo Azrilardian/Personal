@@ -2,7 +2,7 @@ body {
   font-family: "poppins", sans-serif;
 }
 
-/* NAVBAR */
+/*! NAVBAR */
 .main-navbar {
   background-color: white;
   font-size: 12px;
@@ -35,7 +35,7 @@ body {
   color: rgb(0, 132, 255) !important;
 }
 
-/* NAME */
+/*! NAME */
 .name {
   background-color: #f9f9ff;
 }
@@ -72,7 +72,7 @@ body {
   margin: 6% 0 0;
 }
 
-/* ABOUT */
+/*! ABOUT */
 .about {
   margin-top: 10%;
 }
@@ -92,7 +92,7 @@ body {
   width: 85%;
 }
 
-/* UTILITY */
+/*! UTILITY */
 h1.header-h1 {
   font-size: 36px;
   font-weight: 600;
@@ -125,7 +125,7 @@ button.tombol:hover {
   transition: 0.5s;
 }
 
-/* SERVICES */
+/*! SERVICES */
 .services {
   margin-top: 10%;
 }
@@ -162,7 +162,7 @@ button.tombol:hover {
   transition: 0.3s;
 }
 
-/* PROJECT COMPLETED */
+/*! PROJECT COMPLETED */
 .project-completed {
   background-image: linear-gradient(to right, #6d7bff, #53b7ff);
   padding: 7% 0;
@@ -179,7 +179,7 @@ button.tombol:hover {
   font-size: 15px;
 }
 
-/* FEATURED PROJECT */
+/*! FEATURED PROJECT */
 .featured-project {
   margin: 10% 0;
 }
@@ -225,7 +225,7 @@ button.tombol:hover {
   transition: 0.3s;
 }
 
-/* FEEDBACK */
+/*! FEEDBACK */
 .feedback {
   background-color: #f9f9ff;
   padding: 7% 0;
@@ -257,7 +257,7 @@ button.tombol:hover {
   width: 10%;
 }
 
-/* PLANS */
+/*! PLANS */
 .plan {
   margin: 10% 0;
 }
@@ -345,7 +345,7 @@ button.tombol:hover {
   opacity: 0;
 }
 
-/* POSTS */
+/*! POSTS */
 .post {
   background-color: #f9f9ff;
   padding: 7% 0;
@@ -401,7 +401,7 @@ button.tombol:hover {
   margin-top: 15px;
 }
 
-/* SPONSOR */
+/*! SPONSOR */
 .sponsors {
   min-height: 200px;
   background-image: linear-gradient(to right, #6d7bff, #53b7ff);
@@ -418,7 +418,7 @@ button.tombol:hover {
   cursor: pointer;
 }
 
-/* CONTACT */
+/*! CONTACT */
 .contact {
   background-color: #04091e;
   padding: 9% 0;
@@ -468,7 +468,7 @@ button.tombol:hover {
   text-decoration: none;
 }
 
-/* WHERE */
+/*! WHERE */
 .where {
   background-image: linear-gradient(to right, #6d7bff, #53b7ff);
   min-height: 250px;
@@ -485,7 +485,7 @@ button.tombol:hover {
   color: white;
 }
 
-/* EXPERTNESS */
+/*! EXPERTNESS */
 .expertness {
   margin-top: 10%;
 }
@@ -514,7 +514,7 @@ button.tombol:hover {
   background-image: linear-gradient(to right, #6d7bff, #53b7ff);
 }
 
-/* QUALIFICATIONS */
+/*! QUALIFICATIONS */
 .qualifications {
   margin-top: 10%;
 }
@@ -547,7 +547,7 @@ button.tombol:hover {
   font-weight: 500;
 }
 
-/* ACCORDION */
+/*! ACCORDION */
 .accordion-section {
   margin: 10% 0;
 }
@@ -566,7 +566,7 @@ button.tombol:hover {
   color: #777;
 }
 
-/* JUMBOTRON BLOGHOME */
+/*! JUMBOTRON BLOGHOME */
 .jumbotron-bloghome .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/blog/blog-home-banner.jpg);
@@ -606,12 +606,12 @@ button.tombol:hover {
   color: white;
 }
 
-/* BLOG CONTAINER */
+/*! BLOG CONTAINER */
 .blog-container {
   background-color: #f9f9ff;
 }
 
-/* WIDGET */
+/*! WIDGET */
 .widget {
   margin: 8% 0;
 }
@@ -622,7 +622,6 @@ button.tombol:hover {
 
 .widget-text {
   position: absolute;
-  top: 22px;
   color: white;
   width: 80%;
   height: 80%;
@@ -636,10 +635,10 @@ button.tombol:hover {
 }
 
 .widget-text p {
-  border-top: 1px solid white;
-  padding: 5px;
-  width: 70%;
+  border-top: 3px solid white;
+  padding: 5px 0;
   margin-top: 5px;
+  width: 70%;
 }
 
 .widget-text:hover {
@@ -647,8 +646,7 @@ button.tombol:hover {
   transition: 0.3s;
 }
 
-/* BLOG CONTENT */
-
+/*! BLOG CONTENT */
 .blog-content-left {
   margin-bottom: 35px;
 }
@@ -704,6 +702,7 @@ button.tombol:hover {
 .content-right-wrap {
   border: 1px solid rgb(224, 224, 224);
   padding: 40px 30px;
+  margin-bottom: 100px;
 }
 
 .search-box {
@@ -763,21 +762,24 @@ button.tombol:hover {
   margin: 50px 0 0;
 }
 
-/* POPULAR POST */
-
+/*! POPULAR POST */
 .popular-posts {
+  width: 100%;
+}
+
+.post-content {
   height: 100px;
   margin: 0 0 -20px;
 }
 
-.popular-post-text p {
+.post-content-text p {
   color: black;
   font-size: 14px;
   font-weight: 600;
   transition: .3s;
 }
 
-.popular-post-text p:hover {
+.post-content-text p:hover {
   color: #8490ff;
   transition: .3s;
 }
@@ -813,8 +815,7 @@ button.tombol:hover {
   border-bottom: 2px dotted #8490ff;
 }
 
-/* NEWSLETTER */
-
+/*! NEWSLETTER */
 .newsletter p {
   margin: 30px 0;
 }
@@ -843,7 +844,7 @@ button.tombol:hover {
 }
 
 
-/* TAG CLOUDS */
+/*! TAG CLOUDS */
 
 .tag-clouds-category {
   margin: 25px 0 0;
@@ -856,44 +857,54 @@ button.tombol:hover {
   border: 1px solid rgb(228, 228, 228);
   color: rgb(31, 31, 31);
   font-size: 12px;
+  text-decoration: none;
+  transition: .3s;
 }
 
-/* PAGINATION */
+.tag-clouds-category a:hover {
+  background-color: #8490ff;
+  color: white;
+  transition: .3s;
+}
+
+/*! PAGINATION */
+
 nav.pagination {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
-nav ul li {
+nav.pagination ul li {
   padding: 8px;
   list-style: none;
   transition: 0.3s;
 }
 
-nav ul li.page-active {
+nav.pagination ul li.page-active {
   background-color: #8490ff;
 }
 
-nav ul li.page-active a {
+nav.pagination ul li.page-active a {
   color: white;
 }
 
-nav ul li a {
+nav.pagination ul li a {
   padding: 0 3px;
   color: #777;
   text-decoration: none;
 }
 
-nav ul li:hover {
+nav.pagination ul li:hover {
   background-color: #8490ff;
   transition: 0.3s;
 }
 
-nav ul li:hover a {
+nav.pagination ul li:hover a {
   color: white;
   text-decoration: none;
 }
 
-/* PHONE VERSION */
+/** PHONE VERSION */
+
 @media (max-width: 480px) {
 
   .name h4,

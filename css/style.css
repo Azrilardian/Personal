@@ -552,7 +552,7 @@ button.tombol:hover {
     position: absolute;
     color: white;
     width: 80%;
-    height: 80%;
+    height: 65%;
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.3s;
 }
@@ -573,50 +573,50 @@ button.tombol:hover {
 
 /*! BLOG CONTENT */
 
-.blog-content-left {
+.bh-content-left {
     margin-bottom: 35px;
 }
-.content-left {
+.bh-left {
     padding-top: 30px;
 }
-.content-left p a {
+.bh-left p a {
     font-weight: 300;
     color: #777;
     text-decoration: none;
     transition: 0.3s;
     font-size: 14px;
 }
-.content-left p a span {
+.bh-left p a span {
     color: black;
     font-weight: 600;
 }
-.content-left p a:hover {
+.bh-left p a:hover {
     color: #8490ff;
     transition: 0.3s;
 }
-.content-center h4 {
+.bh-center h4 {
     font-size: 24px;
     font-weight: 600;
     color: #222;
     margin-top: 15px;
 }
-.content-center p {
+.bh-center p {
     color: #777;
     margin: 15px 0;
 }
-.content-center button {
+.bh-center button {
     padding: 10px 30px;
     background-color: transparent;
     border-radius: 0px;
     font-weight: 500;
     transition: 0.3s;
 }
-.content-center button:hover {
+.bh-center button:hover {
     background-color: #8490ff;
     color: white;
     transition: 0.3s;
 }
-.content-right-wrap {
+.bh-content-right-wrap {
     border: 1px solid rgb(224, 224, 224);
     padding: 40px 30px;
     margin-bottom: 100px;
@@ -640,10 +640,10 @@ button.tombol:hover {
     position: absolute;
     right: 55px;
 }
-.content-right-wrap img {
+.bh-content-right-wrap img {
     margin: 50px 0;
 }
-.content-right-wrap b {
+.bh-content-right-wrap b {
     font-weight: 300;
     color: #777;
 }
@@ -657,11 +657,11 @@ button.tombol:hover {
 .blog-socmed a:hover {
     color: #8490ff;
 }
-.content-right-wrap p {
+.bh-content-right-wrap p {
     color: #777;
     font-weight: 200;
 }
-.content-right-wrap h5.content-right-heading {
+.bh-content-right-wrap h5.content-right-heading {
     background-color: #8490ff;
     width: 100%;
     padding: 15px 0;

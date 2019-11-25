@@ -877,13 +877,43 @@ nav.pagination ul li:hover a {
 
 /*! SECTION FIVE  */
 
-.bs-content-five {
+.bs-section-five {
     border: 1px solid rgb(230, 230, 230);
-    padding: 20px;
+    padding: 50px 20px;
 }
-.bs-content-five h4 {
+.bs-section-five h4 {
     font-size: 18px;
     font-weight: 600;
+}
+.section-five-left-text a {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.section-five-left-text p.date {
+    font-size: 13px;
+    color: #ccc;
+}
+.section-five-left-text p.comment {
+    font-size: 14px;
+    color: #777;
+}
+.section-five-right a {
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(230, 230, 230);
+    font-size: 14px;
+    font-weight: 600;
+    transition: .3s;
+}
+.section-five-right a:hover {
+    background-color: #8490ff;
+    color: white;
+    transition: .3s;
 }
 
 /** PHONE VERSION */

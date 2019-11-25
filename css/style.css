@@ -720,7 +720,7 @@ button.tombol:hover {
     border: 1px solid rgb(219, 219, 219);
 }
 .newsletter .subscribe i {
-    padding-left: 20px;
+    padding-left: 15px;
     color: rgba(128, 128, 128, 0.527);
 }
 .newsletter .subscribe input {
@@ -832,10 +832,58 @@ nav.pagination ul li:hover a {
     color: #777;
     line-height: 23px;
 }
+
+/*! SECTION THREE  */
+
 .bs-section-three p {
     color: #777;
     font-size: 14px;
     line-height: 23px;
+}
+
+/*! SECTION FOUR */
+
+.bs-section-four {
+    margin-top: 80px;
+    padding: 30px 0;
+    border-top: 1px solid rgb(230, 230, 230);
+}
+.section-four-left-img {
+    position: relative;
+    cursor: pointer;
+}
+.img-hover-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.301);
+    opacity: 0;
+    transition: .3s;
+}
+.img-hover-effect:hover {
+    opacity: 1;
+    transition: .3s;
+}
+.section-four-left-text p {
+    color: #777;
+    font-size: 14px;
+}
+.section-four-left-text h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*! SECTION FIVE  */
+
+.bs-content-five {
+    border: 1px solid rgb(230, 230, 230);
+    padding: 20px;
+}
+.bs-content-five h4 {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /** PHONE VERSION */

@@ -787,6 +787,57 @@ nav.pagination ul li:hover a {
     text-decoration: none;
 }
 
+/*? BLOG SINGLE */
+
+
+/*! BLOG SINGLE CONTENT */
+
+.bs-content {
+    padding-top: 100px;
+}
+
+/*! SECTION ONE TEXT  */
+
+.section-one-text-left p a {
+    font-weight: 300;
+    color: #777;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+.section-one-text-left p a span {
+    color: black;
+    font-weight: 600;
+}
+.section-one-text-left p a:hover {
+    color: #8490ff;
+    transition: 0.3s;
+}
+.section-one-text-right h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.section-one-text-right p {
+    font-size: 14px;
+    color: #777;
+    line-height: 23px;
+}
+
+/*! SECTION TWO */
+
+.bs-section-two p {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 30px rgb(231, 231, 231);
+    color: #777;
+    line-height: 23px;
+}
+.bs-section-three p {
+    color: #777;
+    font-size: 14px;
+    line-height: 23px;
+}
+
 /** PHONE VERSION */
 
 @media (max-width: 480px) {

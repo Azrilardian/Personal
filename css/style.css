@@ -1036,4 +1036,18 @@ nav.pagination ul li:hover a {
     .wadah {
         padding: 0 15px;
     }
+    .qualifications .right {
+        transform: translate(0, 0);
+    }
+    .qualifications .left {
+        transform: translate(0, 0);
+    }
+}
+@media (max-width: 768px) {
+    .qualifications .right {
+        transform: translate(0, 0);
+    }
+    .qualifications .left {
+        transform: translate(0, 0);
+    }
 }

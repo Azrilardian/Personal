@@ -950,6 +950,46 @@ nav.pagination ul li:hover a {
     transition: .3s;
 }
 
+/*! SECTION CONTACT  */
+
+.section-contact {
+    padding: 7% 0;
+    background-color: #f9f9ff;
+}
+.contact-left-icon span {
+    font-size: 30px;
+    color: #8490ff;
+}
+.contact-left-text h5 {
+    font-size: 16px;
+}
+.contact-left-text p {
+    font-size: 14px;
+    color: #777;
+}
+.contact-center input {
+    height: 45px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(230, 230, 230);
+}
+.contact-right textarea {
+    height: 88%;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 10px;
+}
+.section-contact a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 30px;
+    background-color: #8490ff;
+    box-sizing: border-box;
+    border: 1px solid #8490ff;
+    transition: .3s;
+    text-decoration: none;
+}
+
 /** PHONE VERSION */
 
 @media (max-width: 480px) {

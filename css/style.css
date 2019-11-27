@@ -234,12 +234,13 @@ button.tombol:hover {
 /*! PLANS */
 
 .plan {
-    margin: 10% 0;
+    margin: 10% 0 0;
 }
 .plans {
     background-color: #f9f9ff;
     transition: 0.3s;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 .plans:hover {
     background-image: linear-gradient(to right, #6d7bff, #53b7ff);
@@ -345,12 +346,24 @@ button.tombol:hover {
 .post img {
     transition: 0.4s;
 }
-.img-container {
-    width: 360px;
-    height: 220px;
-}
 .user p {
     margin-top: 15px;
+}
+.user {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+.user-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-right {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 /*! SPONSOR */
@@ -957,7 +970,7 @@ nav.pagination ul li:hover a {
 /*! SECTION CONTACT  */
 
 .section-contact {
-    padding: 7% 0;
+    padding: 100px 0;
     background-color: #f9f9ff;
 }
 .contact-left-icon span {
@@ -1053,5 +1066,20 @@ nav.pagination ul li:hover a {
     }
     .qualifications .left {
         transform: translate(0, 0);
+    }
+}
+@media (max-width: 991.98px) {
+    .user {
+        flex-direction: column;
+    }
+    .user-left {
+        justify-content: left;
+        align-items: center;
+    }
+    .user-right {
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+        margin-right: auto;
     }
 }

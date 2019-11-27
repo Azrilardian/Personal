@@ -508,8 +508,6 @@ button.tombol:hover {
     margin: 0;
 }
 .jumbotron-bloghome h1 {
-    width: 500px;
-    margin: auto;
     color: white;
     font-size: 48px;
     font-weight: 600;
@@ -544,7 +542,10 @@ button.tombol:hover {
 /*! WIDGET */
 
 .widget {
-    margin: 8% 0;
+    margin: 8% 0 7%;
+}
+.widget .col-lg-4 {
+    margin-bottom: 20px;
 }
 .widget-flex {
     position: relative;
@@ -653,7 +654,7 @@ button.tombol:hover {
 }
 .blog-socmed a {
     color: black;
-    padding: 0 10px;
+    padding-left: 10px;
 }
 .blog-socmed a:hover {
     color: #8490ff;
@@ -846,8 +847,11 @@ nav.pagination ul li:hover a {
 
 .bs-section-four {
     margin-top: 80px;
-    padding: 30px 0;
+    padding: 30px 0 0;
     border-top: 1px solid rgb(230, 230, 230);
+}
+.section-four-left {
+    margin-bottom: 30px;
 }
 .section-four-left-img {
     position: relative;

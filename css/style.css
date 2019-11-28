@@ -365,6 +365,9 @@ button.tombol:hover {
     align-items: center;
     justify-content: center;
 }
+.user-right .content {
+    padding-left: 10px;
+}
 
 /*! SPONSOR */
 
@@ -1081,5 +1084,26 @@ nav.pagination ul li:hover a {
         align-items: center;
         margin-left: 0;
         margin-right: auto;
+    }
+    .user-right .content {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 743px) {
+    .user {
+        flex-direction: row;
+        padding: 5px 0;
+    }
+    .user-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .user-right {
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
     }
 }

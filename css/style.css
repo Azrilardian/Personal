@@ -994,7 +994,7 @@ nav.pagination ul li:hover a {
     border: 1px solid rgb(230, 230, 230);
 }
 .contact-right textarea {
-    height: 88%;
+    min-height: 185px;
     border: 1px solid rgb(230, 230, 230);
     padding: 10px;
 }

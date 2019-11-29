@@ -1097,6 +1097,32 @@ nav.pagination ul li:hover a {
         padding-right: 10px;
     }
 }
+@media (max-width: 1200px) {
+    .plans-benefit p {
+        font-size: 14px;
+        color: #777;
+        font-weight: 400;
+        padding: 8px 0 0;
+        width: 210px;
+        border-top: 1px solid rgb(230, 230, 230);
+    }
+    .plans-price h1 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .plans-price a {
+        height: 40px;
+        width: 210px;
+        background-color: white;
+        color: black;
+        display: block;
+        line-height: 36px;
+        font-weight: 600;
+        text-decoration: none;
+        margin-top: -47px;
+        opacity: 0;
+    }
+}
 @media (max-width: 743px) {
     .user {
         flex-direction: row;

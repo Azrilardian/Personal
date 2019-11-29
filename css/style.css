@@ -1062,6 +1062,13 @@ nav.pagination ul li:hover a {
     .qualifications .left {
         transform: translate(0, 0);
     }
+    .plans:hover {
+        background-image: linear-gradient(to right, #6d7bff, #53b7ff);
+        transform: scale(1.02);
+        transition: 0.3s;
+        color: white;
+        z-index: 1;
+    }
 }
 @media (max-width: 768px) {
     .qualifications .right {

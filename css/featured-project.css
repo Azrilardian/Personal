@@ -1,0 +1,38 @@
+.featured-project {
+	margin: 10% 0;
+}
+.main-featured-project p {
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 15px;
+}
+.main-featured-project b {
+	font-weight: 400;
+	display: block;
+	margin-top: -15px;
+}
+.img-overlay {
+	position: relative;
+}
+.img-overlay img.img-p {
+	width: 100%;
+	height: 100%;
+}
+.img-overlay span {
+	position: absolute;
+	top: 0;
+	display: block;
+	background-image: linear-gradient(to right, #6d7bff, #53b7ff);
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: 0.3s;
+}
+.img-overlay span:hover {
+	opacity: 0.8;
+	transition: 0.3s;
+}

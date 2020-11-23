@@ -1,0 +1,38 @@
+.services {
+	margin-top: 10%;
+}
+.services span {
+	font-size: 35px;
+	transition: 0.3s;
+}
+.services h4 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #222;
+	margin: 20px 0 15px;
+	transition: 0.3s;
+}
+.services p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #777;
+	padding: 0 15px;
+}
+.services .kartu:hover h4 {
+	color: #8490ff;
+	transition: 0.3s;
+}
+.services .kartu:hover:hover span {
+	background-image: linear-gradient(to right, #6d7bff, #53b7ff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: 0.3s;
+}
+
+@media screen and (max-width: 480px) {
+	.services {
+		margin: 100px 0;
+	}
+}

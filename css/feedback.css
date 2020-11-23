@@ -1,0 +1,29 @@
+h1.header-h1 {
+	padding: 0 10px;
+}
+
+.feedback {
+	background-color: #f9f9ff;
+	padding: 7% 0;
+}
+.feedback .item-bg {
+	background-color: white;
+}
+.item-bg p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #777;
+}
+.item-bg h5 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #222;
+	transition: 0.3s;
+}
+.item-bg:hover h5 {
+	color: #8490ff;
+	transition: 0.3s;
+}
+.feedback .control-bg {
+	width: 10%;
+}

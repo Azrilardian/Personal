@@ -1,0 +1,100 @@
+.plan {
+	margin: 10% 0 0;
+}
+.plans {
+	background-color: #f9f9ff;
+	transition: 0.3s;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+.plans:hover {
+	background-image: linear-gradient(to right, #6d7bff, #53b7ff);
+	transform: scale(1.05);
+	transition: 0.3s;
+	color: white;
+	z-index: 1;
+}
+
+.plans:hover .plans-name p,
+.plans:hover .plans-name h4 {
+	color: white;
+}
+.plans:hover .circle {
+	background-color: transparent;
+	border: 30px solid #e2e4ffa1;
+	transition: 0.3s;
+}
+.plans:hover .plans-benefit p {
+	color: white;
+	border-top: 1px solid #ffffff;
+}
+.plans:hover .plans-price a {
+	opacity: 1;
+}
+.plans:hover .plans-price h1 {
+	opacity: 0;
+}
+.circle {
+	background-color: #f9f9ff;
+	width: 150px;
+	height: 150px;
+	border: 30px solid #e2e4ff;
+	transition: 0.3s;
+}
+.plans-name h4 {
+	font-weight: 600;
+}
+.plans-name p {
+	font-size: 15px;
+	color: #777;
+	font-weight: 400;
+}
+.plans-benefit p {
+	font-size: 15px;
+	color: #777;
+	font-weight: 400;
+	padding: 8px 0 0;
+	width: 250px;
+	border-top: 1px solid #e6e6e6;
+}
+.plans-price h1 {
+	font-weight: 600;
+	font-size: 36px;
+}
+.plans-price a {
+	height: 40px;
+	width: 250px;
+	background-color: white;
+	color: black;
+	display: block;
+	line-height: 36px;
+	font-weight: 600;
+	text-decoration: none;
+	margin-top: -47px;
+	opacity: 0;
+}
+
+@media screen and (max-width: 480px) {
+	.plans:hover {
+		transform: scale(1.02);
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.wadah {
+		padding: 0 25px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.plans-benefit p {
+		font-size: 14px;
+		width: 210px;
+	}
+	.plans-price h1 {
+		font-size: 30px;
+	}
+	.plans-price a {
+		width: 210px;
+	}
+}

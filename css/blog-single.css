@@ -1,0 +1,183 @@
+/*! BLOG SINGLE CONTENT */
+
+.bs-content {
+	padding-top: 100px;
+}
+
+/*! SECTION ONE TEXT  */
+
+.section-one-text-left p a {
+	font-weight: 300;
+	color: #777;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 14px;
+}
+.section-one-text-left p a span {
+	color: black;
+	font-weight: 600;
+}
+.section-one-text-left p a:hover {
+	color: #8490ff;
+	transition: 0.3s;
+}
+.section-one-text-right h3 {
+	font-size: 24px;
+	font-weight: 600;
+}
+.section-one-text-right p {
+	font-size: 14px;
+	color: #777;
+	line-height: 23px;
+}
+
+/*! SECTION TWO */
+
+.bs-section-two p {
+	padding: 30px;
+	background-color: white;
+	box-shadow: 0 0 30px #e7e7e7;
+	color: #777;
+	line-height: 23px;
+}
+
+/*! SECTION THREE  */
+
+.bs-section-three p {
+	color: #777;
+	font-size: 14px;
+	line-height: 23px;
+}
+/* .section-three-img {
+	margin: 0;
+	padding: 0;
+}
+.section-three-img img {
+	width: 100%;
+} */
+
+/*! SECTION FOUR */
+
+.bs-section-four {
+	margin-top: 80px;
+	padding: 30px 0 0;
+	border-top: 1px solid #e6e6e6;
+}
+.section-four-left {
+	margin-bottom: 30px;
+}
+.section-four-left-img {
+	position: relative;
+	cursor: pointer;
+}
+.img-hover-effect {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	background-color: #0000004d;
+	opacity: 0;
+	transition: 0.3s;
+}
+.img-hover-effect:hover {
+	opacity: 1;
+	transition: 0.3s;
+}
+.section-four-left-text p {
+	color: #777;
+	font-size: 14px;
+}
+.section-four-left-text h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+/*! SECTION FIVE  */
+
+.bs-section-five {
+	border: 1px solid #e6e6e6;
+	padding: 50px 20px;
+}
+.bs-section-five h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.section-five-left-text a {
+	font-size: 16px;
+	font-weight: 600;
+	color: black;
+	text-decoration: none;
+}
+.section-five-left-text p.date {
+	font-size: 13px;
+	color: #ccc;
+}
+.section-five-left-text p.comment {
+	font-size: 14px;
+	color: #777;
+}
+.section-five-right a {
+	padding: 10px 25px;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	box-sizing: border-box;
+	border: 1px solid #e6e6e6;
+	font-size: 14px;
+	font-weight: 600;
+	transition: 0.3s;
+}
+.section-five-right a:hover {
+	background-color: #8490ff;
+	color: white;
+	transition: 0.3s;
+}
+
+/*! SECTION SIX */
+
+.bs-section-six {
+	border: 1px solid #e6e6e6;
+	padding: 50px 20px;
+}
+.bs-section-six input.width,
+.bs-section-six textarea.width {
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	border: 1px solid #ececec;
+	margin-bottom: 15px;
+}
+.bs-section-six textarea.width {
+	height: 130px;
+}
+.btn-comment a {
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 13px 30px;
+	background-color: #8490ff;
+	box-sizing: border-box;
+	border: 1px solid #8490ff;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.btn-comment a:hover {
+	background-color: transparent;
+	color: #8490ff;
+	transition: 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+	.section-four-left-text h4 {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 756px) {
+	.section-four-left-text p {
+		margin: 0 0 5px 0;
+	}
+	.section-four-left-text h4 {
+		font-size: 15px;
+	}
+}

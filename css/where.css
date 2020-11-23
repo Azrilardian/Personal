@@ -1,0 +1,13 @@
+.where {
+	background-image: linear-gradient(to right, #6d7bff, #53b7ff);
+	min-height: 250px;
+}
+.where h1 {
+	font-size: 48px;
+	font-weight: 600;
+	color: white;
+}
+.where a,
+.where span {
+	color: white;
+}

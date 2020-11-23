@@ -1,474 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!--! Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!--! Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!--! Linear Icons CSS -->
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
+		<!--! My CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/where.css" />
+		<link rel="stylesheet" href="css/blog-home.css" />
+		<link rel="stylesheet" href="css/blog-single.css" />
+		<!--! Linear Icons -->
+		<link rel="stylesheet" href="css/linearicons.css" />
+		<!--! Font Awesome -->
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<!--! Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet" />
 
-<head>
-    <!--! Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!--! Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!--! Linear Icons CSS -->
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
-    <!--! My CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!--! Linear Icons -->
-    <link rel="stylesheet" href="css/linearicons.css" />
-    <!--! Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <!--! Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet" />
+		<title>Azril ardian</title>
+	</head>
 
-    <title>Azril ardian</title>
-</head>
+	<body>
+		<!--! NAVBAR -->
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light main-navbar main-navbar-shadow px-2">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="services.html">SERVICES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="pricing.html">PRICING</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOG</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="blog-home.html">Blog Home</a>
+								<a class="dropdown-item active" href="blog-single.html">Blog Single</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PAGES</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="#">Elemnet</a>
+								<a class="dropdown-item" href="#">Level 2</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--! AKHIR NAVBAR -->
 
-<body>
-    <!--! NAVBAR -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light main-navbar main-navbar-shadow px-2">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pricing.html">PRICING</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOG</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="blog-home.html">Blog Home</a>
-                            <a class="dropdown-item active" href="blog-single.html">Blog Single</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PAGES</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Elemnet</a>
-                            <a class="dropdown-item" href="#">Level 2</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--! AKHIR NAVBAR -->
+		<!--! WHERE -->
+		<section class="where d-flex justify-content-center align-items-center">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col">
+						<h1>Blog Details Page</h1>
+						<a href="#" class="px-2">Home</a><span class="lnr lnr-arrow-right px-2"></span><a href="#" class="px-2">Blog</a><span class="lnr lnr-arrow-right px-2"></span
+						><a href="#" class="px-2">Blog Details Page</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--! AKHIR WHERE -->
 
-    <!--! WHERE -->
-    <section class="where d-flex justify-content-center align-items-center">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col">
-                    <h1>Blog Details Page</h1>
-                    <a href="#" class="px-2">Home</a><span class="lnr lnr-arrow-right px-2"></span><a href="#" class="px-2">Blog</a><span class="lnr lnr-arrow-right px-2"></span><a href="#" class="px-2">Blog Details Page</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--! AKHIR WHERE -->
+		<!--?  CONTAINER  -->
+		<div class="blog-container">
+			<div class="container">
+				<section class="bs-content">
+					<div class="container">
+						<!--! BLOG SINGLE CONTENT LEFT  -->
+						<div class="row">
+							<div class="col-lg-8 bs-content=left">
+								<div class="bs-section-one">
+									<div class="row">
+										<div class="col-lg-12 section-one-img">
+											<img src="img/blog/feature-img1.jpg" alt="feature-img1" class="mb-4 img-fluid" />
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-lg-3 section-one-text-left text-right">
+											<p><a href="#">Food</a>, <a href="#">Technology</a>, <a href="#">Politics</a>, <a href="#">Lifestyle</a></p>
+											<p>
+												<a href="#">Mark wiens<span class="lnr lnr-user pl-3"></span></a>
+											</p>
+											<p>
+												<a href="#">12 Dec, 2017<span class="lnr lnr-calendar-full pl-3"></span></a>
+											</p>
+											<p>
+												<a href="#">1.2M Views<span class="lnr lnr-eye pl-3"></span></a>
+											</p>
+											<p>
+												<a href="#">06 Comments<span class="lnr lnr-bubble pl-3"></span></a>
+											</p>
+											<div class="blog-socmed text-right">
+												<a href="#"><i class="fa fa-facebook"></i></a>
+												<a href="#"><i class="fa fa-twitter"></i></a>
+												<a href="#"><i class="fa fa-github"></i></a>
+												<a href="#"><i class="fa fa-behance"></i></a>
+											</div>
+										</div>
+										<div class="col-lg-9 section-one-text-right">
+											<h3 class="mb-4">Astronomy Binoculars A Great Alternative</h3>
+											<p>
+												MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get
+												the MCSE study materials yourself at a fraction.
+											</p>
+											<p>
+												Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the
+												MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who
+												has the willpower to actually sit through a self-imposed
+											</p>
+											<p>
+												Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the
+												MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who
+												has the willpower to actually sit through a self-imposed
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="bs-section-two my-4">
+									<div class="row">
+										<div class="col">
+											<p>
+												MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get
+												the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="bs-section-three">
+									<!-- <div class="row p-0 m-0">
+										<div class="col section-three-img d-flex justify-content-center align-items-center">
+											<img src="img/blog/post-img1.jpg" alt="post-img1" class="p-2 img-fluid" />
+											<img src="img/blog/post-img2.jpg" alt="post-img2" class="p-2" />
+										</div>
+									</div> -->
+									<div class="row">
+										<div class="col section-three-text mt-4">
+											<p>
+												MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get
+												the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.
+											</p>
+											<p>
+												MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get
+												the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="bs-section-four">
+									<div class="row justify-content-between">
+										<div class="col section-four-left d-flex justify-content-start">
+											<div class="section-four-left-img">
+												<img src="img/blog/prev.jpg" alt="prev" />
+												<div class="img-hover-effect d-flex justify-content-center align-items-center">
+													<span class="lnr text-white lnr-arrow-left"></span>
+												</div>
+											</div>
+											<div class="section-four-left-text ml-4">
+												<p>Prev Post</p>
+												<h4>Space The Final Frontier</h4>
+											</div>
+										</div>
+										<div class="col section-four-left d-flex justify-content-end">
+											<div class="section-four-left-text mr-4 text-right">
+												<p>Prev Post</p>
+												<h4>Telescopes 101</h4>
+											</div>
+											<div class="section-four-left-img">
+												<img src="img/blog/prev.jpg" alt="prev" />
+												<div class="img-hover-effect d-flex justify-content-center align-items-center">
+													<span class="lnr text-white lnr-arrow-right"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="bs-section-five my-2">
+									<div class="row">
+										<div class="col text-center">
+											<h4>05 Comments</h4>
+										</div>
+									</div>
+									<div class="row mt-5">
+										<div class="col d-flex justify-content-between">
+											<div class="section-five-left d-flex">
+												<div class="section-five-left-img">
+													<img src="img/blog/c1.jpg" alt="c1" />
+												</div>
+												<div class="section-five-left-text pl-4">
+													<a href="#">Marshell Tania</a>
+													<p class="date">December 4, 2017 at 3:12 pm</p>
+													<p class="comment">Never say goodbye till the end comes!</p>
+												</div>
+											</div>
+											<div class="section-five-right">
+												<a href="#">REPLY</a>
+											</div>
+										</div>
+									</div>
+									<div class="row mt-5">
+										<div class="col d-flex justify-content-between">
+											<div class="section-five-left d-flex">
+												<div class="section-five-left-img">
+													<img src="img/blog/c2.jpg" alt="c2" />
+												</div>
+												<div class="section-five-left-text pl-4">
+													<a href="#">Azril ardian ifansyah</a>
+													<p class="date">December 4, 2017 at 3:12 pm</p>
+													<p class="comment">Never say goodbye till the end comes!</p>
+												</div>
+											</div>
+											<div class="section-five-right">
+												<a href="#">REPLY</a>
+											</div>
+										</div>
+									</div>
+									<div class="row mt-5">
+										<div class="col d-flex justify-content-between">
+											<div class="section-five-left d-flex">
+												<div class="section-five-left-img">
+													<img src="img/blog/c3.jpg" alt="c3" />
+												</div>
+												<div class="section-five-left-text pl-4">
+													<a href="#">Tomy Dwi Refandy</a>
+													<p class="date">December 4, 2017 at 3:12 pm</p>
+													<p class="comment">Never say goodbye till the end comes!</p>
+												</div>
+											</div>
+											<div class="section-five-right">
+												<a href="#">REPLY</a>
+											</div>
+										</div>
+									</div>
+									<div class="row mt-5">
+										<div class="col d-flex justify-content-between">
+											<div class="section-five-left d-flex">
+												<div class="section-five-left-img">
+													<img src="img/blog/c4.jpg" alt="c4" />
+												</div>
+												<div class="section-five-left-text pl-4">
+													<a href="#">Ihsan Itqanul</a>
+													<p class="date">December 4, 2017 at 3:12 pm</p>
+													<p class="comment">Never say goodbye till the end comes!</p>
+												</div>
+											</div>
+											<div class="section-five-right">
+												<a href="#">REPLY</a>
+											</div>
+										</div>
+									</div>
+									<div class="row mt-5">
+										<div class="col d-flex justify-content-between">
+											<div class="section-five-left d-flex">
+												<div class="section-five-left-img">
+													<img src="img/blog/c5.jpg" alt="c5" />
+												</div>
+												<div class="section-five-left-text pl-4">
+													<a href="#">Deny Satriawan</a>
+													<p class="date">December 4, 2017 at 3:12 pm</p>
+													<p class="comment">Never say goodbye till the end comes!</p>
+												</div>
+											</div>
+											<div class="section-five-right">
+												<a href="#">REPLY</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="bs-section-six mt-5">
+									<div class="row mb-5">
+										<div class="col text-center">
+											<h4>Leave a Comment</h4>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 col-lg-6">
+											<input type="text" placeholder="Enter Name" class="width" />
+										</div>
+										<div class="col col-lg-6">
+											<input type="mail" placeholder="Enter Email Addres" class="width" />
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" placeholder="Subject" class="width" />
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<textarea name="message" placeholder="Message" class="width"></textarea>
+										</div>
+									</div>
+									<div class="row btn-comment mt-3">
+										<div class="col text-center">
+											<a href="#">POST COMMENT</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--? BLOG HOME CONTENT RIGHT -->
+							<div class="col-lg-4 bh-content-right-container">
+								<div class="bh-content-right-wrap d-flex flex-column justify-content-center align-items-center text-center">
+									<!--? BLOG CONTENT RIGHT SEARCH  -->
+									<div class="search-box d-flex justify-content-between align-items-center">
+										<input type="text" placeholder="Search Posts" /><button><i class="fa fa-search"></i></button>
+									</div>
+									<!--? BLOG CONTENT RIGHT PROFILE  -->
+									<img src="img/blog/user-info.png" alt="user info" />
+									<h5>Azril Ardian Ifansyah</h5>
+									<b>Senior blog writter</b>
+									<div class="blog-socmed">
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-github"></i></a>
+										<a href="#"><i class="fa fa-behance"></i></a>
+									</div>
+									<p>
+										Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps
+										have itssuppor ters andits detractors.
+									</p>
+									<!--? BLOG CONTENT RIGHT POPULAR POST -->
+									<div class="popular-posts">
+										<div class="row">
+											<div class="col-md-12">
+												<h5 class="content-right-heading">Popular Posts</h5>
+												<div class="post-content d-flex align-items-center">
+													<img src="img/blog/pp1.jpg" alt="" />
+													<div class="post-content-text text-left px-2">
+														<p>Space The Final Frontier</p>
+														<b>02 Hours ago</b>
+													</div>
+												</div>
+												<div class="post-content d-flex align-items-center">
+													<img src="img/blog/pp2.jpg" alt="" />
+													<div class="post-content-text text-left px-2">
+														<p>Space The Final Frontier</p>
+														<b>02 Hours ago</b>
+													</div>
+												</div>
+												<div class="post-content d-flex align-items-center">
+													<img src="img/blog/pp3.jpg" alt="" />
+													<div class="post-content-text text-left px-2">
+														<p>Space The Final Frontier</p>
+														<b>02 Hours ago</b>
+													</div>
+												</div>
+												<div class="post-content d-flex align-items-center">
+													<img src="img/blog/pp4.jpg" alt="" />
+													<div class="post-content-text text-left px-2">
+														<p>Space The Final Frontier</p>
+														<b>02 Hours ago</b>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--? BLOG CONTENT RIGHT BANNER  -->
+									<img src="img/blog/ads-banner.jpg" alt="ads banner" width="100%" />
+									<!--? BLOG CONTENT RIGHT POST CATEGORIES  -->
+									<div class="post-categories">
+										<div class="row">
+											<div class="col">
+												<h5 class="content-right-heading">Posts Categories</h5>
+												<div class="category d-flex justify-content-between">
+													<p>Technology</p>
+													<b>37</b>
+												</div>
+												<div class="category d-flex justify-content-between">
+													<p>Lifestyle</p>
+													<b>37</b>
+												</div>
+												<div class="category d-flex justify-content-between">
+													<p>Fashion</p>
+													<b>37</b>
+												</div>
+												<div class="category d-flex justify-content-between">
+													<p>Art</p>
+													<b>37</b>
+												</div>
+												<div class="category d-flex justify-content-between">
+													<p>Food</p>
+													<b>37</b>
+												</div>
+												<div class="category d-flex justify-content-between">
+													<p>Architecture</p>
+													<b>37</b>
+												</div>
+												<div class="category d-flex justify-content-between">
+													<p>Adventure</p>
+													<b>37</b>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--? BLOG CONTENT RIGHT NEWSLETTER  -->
+									<div class="newsletter">
+										<div class="row">
+											<div class="col">
+												<h5 class="content-right-heading">NewsLeter</h5>
+												<p>Here, I focus on a range of items and features that we use in life without giving them asecond thought.</p>
+												<div class="subscribe d-flex align-items-center justify-content-between">
+													<i class="fa fa-envelope" aria-hidden="true"></i>
+													<input type="text" placeholder="Enter Email" />
+													<a href="#">Subscribe</a>
+												</div>
+												<p>You can unsubscribe at any time</p>
+											</div>
+										</div>
+									</div>
+									<!--? BLOG CONTENT RIGHT TAG CLOUDS  -->
+									<div class="tag-clouds">
+										<div class="row">
+											<div class="col">
+												<h5 class="content-right-heading">Tag Clouds</h5>
+												<div class="tag-clouds-category d-flex flex-wrap">
+													<a href="#">Technology</a>
+													<a href="#">Fashion</a>
+													<a href="#">Architecture</a>
+													<a href="#">Fashion</a>
+													<a href="#">Food</a>
+													<a href="#">Technology</a>
+													<a href="#">Lifestyle</a>
+													<a href="#">Art</a>
+													<a href="#">Adventure</a>
+													<a href="#">Food</a>
+													<a href="#">Lifestyle</a>
+													<a href="#">Adventure</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!--? AKHIR CONTAINER  -->
+		<!--! CONTACT -->
+		<section class="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<h4>About Me</h4>
+						<p>
+							We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.<br /><br />Copyright ©2019 All rights reserved |
+							This template is made with <i class="fa fa-heart-o px-1" aria-hidden="true"></i>by <a href="#" id="name">Azril ardian</a>
+						</p>
+					</div>
+					<div class="col-lg-5">
+						<h4>Newsletter</h4>
+						<p>Stay updated with our latest trends</p>
+						<div class="news-input d-flex input-group flex-nowrap">
+							<input type="text" class="form-control" placeholder="Enter Email Address" aria-label="Email" aria-describedby="addon-wrapping" /><span
+								class="lnr lnr-arrow-right d-flex justify-content-center align-items-center"
+							></span>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<h4>Follow Me</h4>
+						<p>Let us be social</p>
+						<div class="socmed d-flex">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--! AKHIR CONTACT -->
 
-    <!--?  CONTAINER  -->
-    <div class="blog-container">
-        <div class="container">
-            <section class="bs-content">
-                <div class="container">
-                    <!--! BLOG SINGLE CONTENT LEFT  -->
-                    <div class="row">
-                        <div class="col-lg-8 bs-content=left">
-                            <div class="bs-section-one">
-                                <div class="row">
-                                    <div class="col-lg-12 section-one-img">
-                                        <img src="img/blog/feature-img1.jpg" alt="feature-img1" class="mb-4 img-fluid">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-3 section-one-text-left text-right">
-                                        <p><a href="#">Food</a>, <a href="#">Technology</a>, <a href="#">Politics</a>, <a href="#">Lifestyle</a></p>
-                                        <p><a href="#">Mark wiens<span class="lnr lnr-user pl-3"></span></a></p>
-                                        <p><a href="#">12 Dec, 2017<span class="lnr lnr-calendar-full pl-3"></span></a></p>
-                                        <p><a href="#">1.2M Views<span class="lnr lnr-eye pl-3"></span></a></p>
-                                        <p><a href="#">06 Comments<span class="lnr lnr-bubble pl-3"></span></a></p>
-                                        <div class="blog-socmed text-right">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-github"></i></a>
-                                            <a href="#"><i class="fa fa-behance"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-9 section-one-text-right">
-                                        <h3 class="mb-4">Astronomy Binoculars A Great Alternative</h3>
-                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction. </p>
-                                        <p>Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price.
-                                            However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed </p>
-                                        <p>Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price.
-                                            However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bs-section-two my-4">
-                                <div class="row">
-                                    <div class="col">
-                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp
-                                            price. However, who has the willpower to actually sit through a self-imposed MCSE training. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bs-section-three">
-                                <div class="row">
-                                    <div class="col section-three-img d-flex">
-                                        <img src="img/blog/post-img1.jpg" alt="post-img1" class="pr-3">
-                                        <img src="img/blog/post-img2.jpg" alt="post-img2" class="pl-3">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col section-three-text mt-4">
-                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp
-                                            price. However, who has the willpower. </p>
-                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp
-                                            price. However, who has the willpower. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bs-section-four">
-                                <div class="row justify-content-between">
-                                    <div class="col section-four-left d-flex justify-content-start">
-                                        <div class="section-four-left-img">
-                                            <img src="img/blog/prev.jpg" alt="prev">
-                                            <div class="img-hover-effect d-flex justify-content-center align-items-center">
-                                                <span class="lnr text-white lnr-arrow-left"></span>
-                                            </div>
-                                        </div>
-                                        <div class="section-four-left-text ml-4">
-                                            <p>Prev Post</p>
-                                            <h4>Space The Final Frontier</h4>
-                                        </div>
-                                    </div>
-                                    <div class="col section-four-left d-flex justify-content-end">
-                                        <div class="section-four-left-text mr-4 text-right">
-                                            <p>Prev Post</p>
-                                            <h4>Telescopes 101</h4>
-                                        </div>
-                                        <div class="section-four-left-img">
-                                            <img src="img/blog/prev.jpg" alt="prev">
-                                            <div class="img-hover-effect d-flex justify-content-center align-items-center">
-                                                <span class="lnr text-white lnr-arrow-right"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bs-section-five my-2">
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h4>05 Comments</h4>
-                                    </div>
-                                </div>
-                                <div class="row mt-5">
-                                    <div class="col d-flex justify-content-between">
-                                        <div class="section-five-left d-flex">
-                                            <div class="section-five-left-img">
-                                                <img src="img/blog/c1.jpg" alt="c1">
-                                            </div>
-                                            <div class="section-five-left-text pl-4">
-                                                <a href="#">Marshell Tania</a>
-                                                <p class="date">December 4, 2017 at 3:12 pm</p>
-                                                <p class="comment">Never say goodbye till the end comes! </p>
-                                            </div>
-                                        </div>
-                                        <div class="section-five-right">
-                                            <a href="#">REPLY</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mt-5">
-                                    <div class="col d-flex justify-content-between">
-                                        <div class="section-five-left d-flex">
-                                            <div class="section-five-left-img">
-                                                <img src="img/blog/c2.jpg" alt="c2">
-                                            </div>
-                                            <div class="section-five-left-text pl-4">
-                                                <a href="#">Azril ardian ifansyah</a>
-                                                <p class="date">December 4, 2017 at 3:12 pm</p>
-                                                <p class="comment">Never say goodbye till the end comes! </p>
-                                            </div>
-                                        </div>
-                                        <div class="section-five-right">
-                                            <a href="#">REPLY</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mt-5">
-                                    <div class="col d-flex justify-content-between">
-                                        <div class="section-five-left d-flex">
-                                            <div class="section-five-left-img">
-                                                <img src="img/blog/c3.jpg" alt="c3">
-                                            </div>
-                                            <div class="section-five-left-text pl-4">
-                                                <a href="#">Tomy Dwi Refandy</a>
-                                                <p class="date">December 4, 2017 at 3:12 pm</p>
-                                                <p class="comment">Never say goodbye till the end comes! </p>
-                                            </div>
-                                        </div>
-                                        <div class="section-five-right">
-                                            <a href="#">REPLY</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mt-5">
-                                    <div class="col d-flex justify-content-between">
-                                        <div class="section-five-left d-flex">
-                                            <div class="section-five-left-img">
-                                                <img src="img/blog/c4.jpg" alt="c4">
-                                            </div>
-                                            <div class="section-five-left-text pl-4">
-                                                <a href="#">Ihsan Itqanul</a>
-                                                <p class="date">December 4, 2017 at 3:12 pm</p>
-                                                <p class="comment">Never say goodbye till the end comes! </p>
-                                            </div>
-                                        </div>
-                                        <div class="section-five-right">
-                                            <a href="#">REPLY</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mt-5">
-                                    <div class="col d-flex justify-content-between">
-                                        <div class="section-five-left d-flex">
-                                            <div class="section-five-left-img">
-                                                <img src="img/blog/c5.jpg" alt="c5">
-                                            </div>
-                                            <div class="section-five-left-text pl-4">
-                                                <a href="#">Deny Satriawan</a>
-                                                <p class="date">December 4, 2017 at 3:12 pm</p>
-                                                <p class="comment">Never say goodbye till the end comes! </p>
-                                            </div>
-                                        </div>
-                                        <div class="section-five-right">
-                                            <a href="#">REPLY</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bs-section-six mt-5">
-                                <div class="row mb-5">
-                                    <div class="col text-center">
-                                        <h4>Leave a Comment</h4>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <input type="text" placeholder="Enter Name" class="width">
-                                    </div>
-                                    <div class="col col-lg-6">
-                                        <input type="mail" placeholder="Enter Email Addres" class="width">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="text" placeholder="Subject" class="width">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <textarea name="message" placeholder="Message" class="width"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row btn-comment mt-3">
-                                    <div class="col text-center">
-                                        <a href="#">POST COMMENT</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--? BLOG HOME CONTENT RIGHT -->
-                        <div class="col-lg-4 bh-content-right-container">
-                            <div class="bh-content-right-wrap d-flex flex-column justify-content-center align-items-center text-center">
-                                <!--? BLOG CONTENT RIGHT SEARCH  -->
-                                <div class="search-box d-flex justify-content-center align-items-center"> <input type="text" placeholder="Search Posts"><button><i class="fa fa-search"></i></button>
-                                </div>
-                                <!--? BLOG CONTENT RIGHT PROFILE  -->
-                                <img src="img/blog/user-info.png" alt="user info">
-                                <h5>Azril Ardian Ifansyah</h5>
-                                <b>Senior blog writter</b>
-                                <div class="blog-socmed">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                    <a href="#"><i class="fa fa-behance"></i></a>
-                                </div>
-                                <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors. </p>
-                                <!--? BLOG CONTENT RIGHT POPULAR POST -->
-                                <div class="popular-posts">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <h5 class="content-right-heading">Popular Posts</h5>
-                                            <div class="post-content d-flex align-items-center">
-                                                <img src="img/blog/pp1.jpg" alt="">
-                                                <div class="post-content-text text-left px-2">
-                                                    <p>Space The Final Frontier</p>
-                                                    <b>02 Hours ago</b>
-                                                </div>
-                                            </div>
-                                            <div class="post-content d-flex align-items-center">
-                                                <img src="img/blog/pp2.jpg" alt="">
-                                                <div class="post-content-text text-left px-2">
-                                                    <p>Space The Final Frontier</p>
-                                                    <b>02 Hours ago</b>
-                                                </div>
-                                            </div>
-                                            <div class="post-content d-flex align-items-center">
-                                                <img src="img/blog/pp3.jpg" alt="">
-                                                <div class="post-content-text text-left px-2">
-                                                    <p>Space The Final Frontier</p>
-                                                    <b>02 Hours ago</b>
-                                                </div>
-                                            </div>
-                                            <div class="post-content d-flex align-items-center">
-                                                <img src="img/blog/pp4.jpg" alt="">
-                                                <div class="post-content-text text-left px-2">
-                                                    <p>Space The Final Frontier</p>
-                                                    <b>02 Hours ago</b>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--? BLOG CONTENT RIGHT BANNER  -->
-                                <img src="img/blog/ads-banner.jpg" alt="ads banner" width="100%">
-                                <!--? BLOG CONTENT RIGHT POST CATEGORIES  -->
-                                <div class="post-categories">
-                                    <div class="row">
-                                        <div class="col">
-                                            <h5 class="content-right-heading">Posts Categories</h5>
-                                            <div class="category d-flex justify-content-between">
-                                                <p>Technology</p>
-                                                <b>37</b>
-                                            </div>
-                                            <div class="category d-flex justify-content-between">
-                                                <p>Lifestyle</p>
-                                                <b>37</b>
-                                            </div>
-                                            <div class="category d-flex justify-content-between">
-                                                <p>Fashion</p>
-                                                <b>37</b>
-                                            </div>
-                                            <div class="category d-flex justify-content-between">
-                                                <p>Art</p>
-                                                <b>37</b>
-                                            </div>
-                                            <div class="category d-flex justify-content-between">
-                                                <p>Food</p>
-                                                <b>37</b>
-                                            </div>
-                                            <div class="category d-flex justify-content-between">
-                                                <p>Architecture</p>
-                                                <b>37</b>
-                                            </div>
-                                            <div class="category d-flex justify-content-between">
-                                                <p>Adventure</p>
-                                                <b>37</b>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--? BLOG CONTENT RIGHT NEWSLETTER  -->
-                                <div class="newsletter">
-                                    <div class="row">
-                                        <div class="col">
-                                            <h5 class="content-right-heading">NewsLeter</h5>
-                                            <p>Here, I focus on a range of items and features that we use in life without giving them asecond thought. </p>
-                                            <div class="subscribe d-flex align-items-center justify-content-between">
-                                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                                <input type="text" placeholder="Enter Email">
-                                                <a href="#">Subscribe</a>
-                                            </div>
-                                            <p>You can unsubscribe at any time</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--? BLOG CONTENT RIGHT TAG CLOUDS  -->
-                                <div class="tag-clouds">
-                                    <div class="row">
-                                        <div class="col">
-                                            <h5 class="content-right-heading">Tag Clouds</h5>
-                                            <div class="tag-clouds-category d-flex flex-wrap">
-                                                <a href="#">Technology</a>
-                                                <a href="#">Fashion</a>
-                                                <a href="#">Architecture</a>
-                                                <a href="#">Fashion</a>
-                                                <a href="#">Food</a>
-                                                <a href="#">Technology</a>
-                                                <a href="#">Lifestyle</a>
-                                                <a href="#">Art</a>
-                                                <a href="#">Adventure</a>
-                                                <a href="#">Food</a>
-                                                <a href="#">Lifestyle</a>
-                                                <a href="#">Adventure</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <!--? AKHIR CONTAINER  -->
-    <!--! CONTACT -->
-    <section class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <h4>About Me</h4>
-                    <p> We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.<br><br>Copyright ©2019 All rights reserved | This template is made with
-                        <i class="fa fa-heart-o px-1" aria-hidden="true"></i>by <a href="#" id="name">Azril ardian</a>
-                    </p>
-                </div>
-                <div class="col-lg-5">
-                    <h4>Newsletter</h4>
-                    <p>Stay updated with our latest trends</p>
-                    <div class="news-input d-flex input-group flex-nowrap">
-                        <input type="text" class="form-control" placeholder="Enter Email Address" aria-label="Email" aria-describedby="addon-wrapping"><span class="lnr lnr-arrow-right d-flex justify-content-center align-items-center"></span>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <h4>Follow Me</h4>
-                    <p>Let us be social</p>
-                    <div class="socmed d-flex">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--! AKHIR CONTACT -->
-
-    <!--! Optional JavaScript -->
-    <!--! jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
-
+		<!--! Optional JavaScript -->
+		<!--! jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>

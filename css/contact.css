@@ -1,0 +1,39 @@
+/*! SECTION CONTACT  */
+
+.section-contact {
+	padding: 100px 0;
+	background-color: #f9f9ff;
+}
+.contact-left-icon span {
+	font-size: 30px;
+	color: #8490ff;
+}
+.contact-left-text h5 {
+	font-size: 16px;
+}
+.contact-left-text p {
+	font-size: 14px;
+	color: #777;
+}
+.contact-center input {
+	height: 45px;
+	padding-left: 15px;
+	margin-bottom: 25px;
+	border: 1px solid #e6e6e6;
+}
+.contact-right textarea {
+	min-height: 185px;
+	border: 1px solid #e6e6e6;
+	padding: 10px;
+}
+.section-contact a {
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 13px 30px;
+	background-color: #8490ff;
+	box-sizing: border-box;
+	border: 1px solid #8490ff;
+	transition: 0.3s;
+	text-decoration: none;
+}

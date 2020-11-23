@@ -1,0 +1,42 @@
+.about {
+	margin-top: 10%;
+}
+.about h4 {
+	font-size: 14px;
+	font-weight: 400;
+}
+.about p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #777;
+}
+.about img {
+	width: 85%;
+}
+
+@media screen and (max-width: 480px) {
+	.about h4 {
+		font-size: 12px;
+	}
+	.about h1 {
+		font-size: 45px;
+		margin: 10px 0;
+	}
+	.about p {
+		font-size: 13px;
+		padding: 0 10px 10px 0;
+	}
+	.about img {
+		width: 100%;
+		margin-top: 50px;
+	}
+	.about-left {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 991.98px) {
+	.about img {
+		width: 100%;
+	}
+}

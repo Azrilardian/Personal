@@ -1,0 +1,23 @@
+.expertness {
+	margin-top: 10%;
+}
+.expertness p {
+	font-size: 14px;
+	padding-top: 40px;
+	line-height: 24px;
+	margin-top: 10px;
+	color: #777;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.expertness h4 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 40px 0;
+}
+.progress {
+	border: 3px solid rgb(233, 233, 233);
+}
+.progress-bar {
+	background-image: linear-gradient(to right, #6d7bff, #53b7ff);
+}

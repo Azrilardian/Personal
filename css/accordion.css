@@ -1,0 +1,14 @@
+.accordion-section {
+	margin: 10% 0;
+}
+.accordion h2 button {
+	color: black;
+	font-size: 15px;
+}
+.accordion h2 button:hover {
+	color: #8490ff;
+	text-decoration: none;
+}
+.accordion .card-body {
+	color: #777;
+}

@@ -1,0 +1,34 @@
+.qualifications {
+	margin-top: 10%;
+}
+.qualifications .right {
+	transform: translate(220px, 0);
+}
+.qualifications .left {
+	transform: translate(-220px, 0);
+}
+.qualifications ul li {
+	box-shadow: 0 0 20px rgb(238, 238, 238);
+	padding: 30px;
+	margin: 50px 0;
+}
+.qualifications ul li h4 {
+	font-size: 18px;
+	font-weight: 700;
+}
+.qualifications ul li p {
+	color: #777;
+}
+.qualifications ul li p b {
+	color: #222;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+	.qualifications .right {
+		transform: translate(0, 0);
+	}
+	.qualifications .left {
+		transform: translate(0, 0);
+	}
+}
